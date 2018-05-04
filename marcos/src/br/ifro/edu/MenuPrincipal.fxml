@@ -10,6 +10,12 @@
 <AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ifro.edu.MenuPrincipalController">
     <children>
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <JFXButton layoutX="134.0" layoutY="162.0" text="OK" textFill="#18b535" />
+      <Label layoutX="14.0" layoutY="14.0" text="Numero 1" />
+      <Label layoutX="171.0" layoutY="14.0" text="Numero 2" />
+      <Label layoutX="132.0" layoutY="120.0" text="Resultado" />
+      <TextField fx:id="txtn1" layoutY="56.0" />
+      <TextField fx:id="txtn2" layoutX="151.0" layoutY="56.0" />
+      <TextField fx:id="txtresult" layoutX="77.0" layoutY="152.0" />
+      <Button fx:id="btnsoma" layoutX="7.0" layoutY="100.0" mnemonicParsing="false" onAction="#soma" text="Soma" />
     </children>
 </AnchorPane>
